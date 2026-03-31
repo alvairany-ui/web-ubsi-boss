@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+/* HEADER */
+header {
+    color: white;
+    text-align: center;
+    padding: 40px;
+
+    background-image: linear-gradient(
+        rgba(25, 118, 210, 0.8),   /* biru */
+        rgba(25, 118, 210, 0.8)
+    ),
+    url("ubsi-margonda.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #1976d2; /* biru */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #fffde7; /* kuning muda */
+    padding: 20px 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #fbc02d; /* kuning */
+    color: #0d47a1;            /* biru tua */
+}
+
+/* CARD */
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer {
+    background-color: #0d47a1; /* biru tua */
+    color: #fffde7;            /* kuning muda */
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+/* HEADER */
+.header {
+    background-color: #0d47a1;
+    color: white;
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 12px; /* jarak antar logo */
+    margin-bottom: 10px;
+}
+
+.header-logo img {
+    width: 70px;   /* ukuran logo kecil */
+    height: auto;
+}
+
+
+/* NAVBAR */
+nav {
+    background-color: #fbc02d; /* kuning */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #0d47a1; /* biru tua */
+    padding: 20px 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #0d47a1; /* biru */
+    color: #ffffff;
+}
+
+
+
+/* CARD */
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer {
+    background-color: #0d47a1; /* biru tua */
+    color: #fffde7;            /* kuning muda */
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
